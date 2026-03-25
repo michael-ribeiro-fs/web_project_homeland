@@ -1,0 +1,45 @@
+.intro {
+  margin-top: 92px;
+  width: 830px;
+  margin-left: 148px;
+}
+
+.intro_title {
+  color: #fff;
+  line-height: 58px;
+  font-size: 54px;
+  font-weight: 900;
+  height: 116px;
+  margin-top: 0;
+}
+
+.intro_cite {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 40px;
+  height: 68px;
+  width: 738px;
+}
+
+.intro_author {
+  color: #fff;
+  margin-top: 10px;
+  height: 34px;
+  width: 732px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: end;
+}
+
+.intro_paragraph {
+  color: #fff;
+  width: 722px;
+  height: 182px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63rem;
+  margin-top: 32px;
+}
