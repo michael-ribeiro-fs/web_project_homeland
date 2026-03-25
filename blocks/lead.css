@@ -1,0 +1,33 @@
+.lead {
+  width: 984px;
+  height: 983px;
+  margin: 90px auto 0 auto;
+}
+
+.lead_title {
+  width: 720px;
+  height: 200px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.lead_subtitle {
+  width: 720px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  margin: 32px auto 0 auto;
+}
+
+.lead_image {
+  height: 615px;
+  width: 984px;
+  margin: 64px auto;
+}
