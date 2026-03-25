@@ -1,7 +1,7 @@
 .lead {
   width: 984px;
   height: 983px;
-  margin: 90px auto 0 auto;
+  margin-top: 90px;
 }
 
 .lead_title {
@@ -30,4 +30,25 @@
   height: 615px;
   width: 984px;
   margin: 64px auto;
+}
+
+@media (max-width: 768px) {
+  .lead {
+    width: 100%;
+    height: 255px;
+    margin: 90px auto 0 auto;
+  }
+
+  .lead_title {
+    width: 530px;
+    height: 158px;
+    font-size: 75px;
+    line-height: 79px;
+  }
+
+  .lead_image {
+    height: 480px;
+    width: 768px;
+    margin-top: 30px;
+  }
 }
