@@ -34,10 +34,10 @@ A estrutura do projeto foi organizada de forma modular e escalável:
 /
 ├── blocks/
 │   ├── footer.css
+│   ├── header.css
 │   ├── intro.css
-│   ├── lead.css
-│   ├── logo.css
 │   └── page.css
+│
 │
 ├── fonts/
 │   ├── Inter-Black.woff2

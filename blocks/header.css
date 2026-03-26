@@ -1,4 +1,4 @@
-header {
+.header {
   width: 984px;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ header {
     margin-top: 14px;
   }
 
-  header {
+  .header {
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -81,7 +81,7 @@ header {
     height: 52px;
     margin: 4px auto 0 auto;
   }
-  header {
+  .header {
     width: 100%;
     margin-top: 0;
     height: auto;
