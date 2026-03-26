@@ -8,7 +8,6 @@
   line-height: 58px;
   font-size: 54px;
   font-weight: 900;
-  height: 116px;
   margin-top: 0;
 }
 
@@ -18,14 +17,12 @@
   font-weight: 400;
   line-height: 34px;
   margin-top: 40px;
-  height: 68px;
   width: 100%;
 }
 
 .intro_author {
   color: #fff;
   margin-top: 10px;
-  height: 34px;
   width: 100%;
   font-size: 24px;
   font-weight: 400;
@@ -36,16 +33,33 @@
 .intro_paragraph {
   color: #fff;
   width: 100%;
-  height: 182px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.63rem;
   margin-top: 32px;
 }
 
-@media (max-width: 768px) {
+/* Responsive adjustments for mobile screens */
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
   .intro {
-    width: 720px;
+    width: 90%;
+    margin-top: 90px;
+  }
+
+  .intro_title {
+    width: 100%;
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+
+/* Responsive adjustments for tablet screens */
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .intro {
+    width: 94%;
+    margin-top: 90px;
   }
 
   .intro_title {
