@@ -3,7 +3,7 @@
   width: 830px;
 }
 
-.intro_title {
+.intro__title {
   color: #fff;
   line-height: 1.07;
   font-size: 54px;
@@ -11,7 +11,7 @@
   margin-top: 0;
 }
 
-.intro_cite {
+.intro__text {
   color: #fff;
   font-size: 24px;
   font-weight: 400;
@@ -20,7 +20,7 @@
   width: 100%;
 }
 
-.intro_author {
+.intro__author {
   color: #fff;
   margin-top: 10px;
   width: 100%;
@@ -30,7 +30,7 @@
   text-align: end;
 }
 
-.intro_paragraph {
+.intro__paragraph {
   color: #fff;
   width: 100%;
   font-size: 16px;
@@ -47,7 +47,7 @@
     margin-top: 90px;
   }
 
-  .intro_title {
+  .intro__title {
     width: 100%;
     font-size: 45px;
     line-height: 1.08;
@@ -62,7 +62,7 @@
     margin-top: 90px;
   }
 
-  .intro_title {
+  .intro__title {
     width: 100%;
     font-size: 45px;
     line-height: 1.08;
