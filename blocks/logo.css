@@ -4,9 +4,20 @@
   margin: 18px auto 0 auto;
 }
 
-@media (max-width: 768px) {
+/* Responsive adjustments for smaller screens */
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .logo {
     height: 66px;
     margin-top: 14px;
+  }
+}
+
+/* Responsive adjustments for mobile screens */
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 188px;
+    height: 52px;
+    margin: 4px auto 0 auto;
   }
 }
