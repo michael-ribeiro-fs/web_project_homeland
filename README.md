@@ -10,7 +10,7 @@ Além disso, era necessário aplicar boas práticas de organização de código,
 
 ## Solução 🎯
 
-Foi desenvolvida uma página web que apresenta a cidade de Kentucky dentro do conceito da Galeria de Arte TripleTen, destacando histórias e identidades culturais.
+Foi desenvolvida uma página web que apresenta as cidades de vários colegas da TripleTen dentro do conceito da Galeria de Arte TripleTen, destacando histórias e identidades culturais.
 
 A proposta do projeto é representada pelo seguinte texto:
 
@@ -30,13 +30,15 @@ https://github.com/michael-ribeiro-fs/web_project_homeland
 
 A estrutura do projeto foi organizada de forma modular e escalável:
 
-```
+```text
 /
 ├── blocks/
 │   ├── footer.css
+│   ├── grid.css
 │   ├── header.css
 │   ├── intro.css
-│   └── page.css
+│   ├── page.css
+│   └── places.css
 │
 │
 ├── fonts/
@@ -72,7 +74,10 @@ A estrutura do projeto foi organizada de forma modular e escalável:
 
 - Uso predominante de:
   - `flexbox` para layout
+  - `grid layout` para estruturação e responsividade
   - `%` para dimensões fluidas
+
+- Decidi utilizar **CSS Grid Layout** por considerar uma ferramenta mais eficiente e flexível para implementação da responsividade, especialmente na organização de seções com múltiplos elementos e adaptação entre diferentes breakpoints.
 
 - Evitado:
   - larguras fixas em pixels
@@ -92,6 +97,7 @@ Durante o desenvolvimento, o favicon não era exibido no Firefox. O problema est
 - HTML5
 - CSS3
 - Flexbox
+- Grid Layout
 - Media Queries
 - Git e GitHub
 
@@ -103,7 +109,7 @@ O projeto é estático e não possui dependências externas.
 
 Basta abrir o arquivo:
 
-```
+```text
 index.html
 ```
 
