@@ -70,7 +70,7 @@
 .card__text {
   color: #fff;
   font-weight: 400;
-  font-size: 18;
+  font-size: 18px;
   line-height: 1.63;
   grid-row: span 2;
 }
@@ -182,15 +182,6 @@
 
   .label {
     width: 100%;
-  }
-
-  .card__artist-label {
-  }
-
-  .card__artist-name {
-  }
-
-  .card__body {
   }
 
   .card__image {
