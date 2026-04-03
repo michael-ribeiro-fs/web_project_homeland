@@ -88,7 +88,7 @@
   align-items: center;
 }
 
-.link__button {
+.places__card-link {
   text-decoration: none;
   color: #fff;
   font-weight: 400;
@@ -152,7 +152,7 @@
     margin: 30px auto 0;
   }
 
-  .link__button {
+  .places__card-link {
     font-size: 14px;
     line-height: 1;
   }
@@ -197,7 +197,7 @@
     width: 100%;
   }
 
-  .link__button {
+  .places__card-link {
     font-size: 18px;
     line-height: 1;
   }
