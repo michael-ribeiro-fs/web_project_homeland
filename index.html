@@ -14,7 +14,7 @@
       content="homeland, pátria, cidade, kentucky, tripleten"
     />
     <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./src/pages/index.css" />
   </head>
   <body>
     <div class="page">
@@ -58,49 +58,11 @@
           </p>
         </section>
         <section class="photogrid">
-          <img
-            src="./images/city-coast.png"
-            alt="Imagem ilustrativa Cidade Costeira"
-            class="photogrid__image"
-          />
-          <img
-            src="./images/coastal-town-view.png"
-            alt="Imagem ilustrativa vista do horizonte na costa"
-            class="photogrid__image"
-          />
-          <img
-            src="./images/church-sunset-view.png"
-            alt="Imagem ilustrativa Vista de uma igreja ao pôr do sol"
-            class="photogrid__image"
-          />
-          <img
-            src="./images/city-river-bridge-view.png"
-            alt="Imagem ilustrativa Vista de uma cidade junto a um rio e uma ponte"
-            class="photogrid__image"
-          />
-          <img
-            src="./images/grassy-field-landscape.png"
-            alt="Imagem ilustrativa Vista de um campo gramado"
-            class="photogrid__image"
-          />
-          <img
-            src="./images/green-garden-sign.png"
-            alt="Imagem ilustrativa Vista de um jardim verde com uma placa"
-            class="photogrid__image"
-          />
-          <img
-            src="./images/man-indigenous-hut.png"
-            alt="Imagem ilustrativa Vista de um homem em frente a uma cabana indígena"
-            class="photogrid__image"
-          />
-          <img
-            src="./images/rural-houses-view.png"
-            alt="Imagem ilustrativa Vista de casas rurais"
-            class="photogrid__image"
-          />
+          <template id="photogrid_template">
+            <img src="" alt="" class="photogrid__image" />
+          </template>
         </section>
         <section class="places">
-          <!------------------------card 1--------------------->
           <div class="places__card">
             <div class="places__card-header">
               <h3 class="places__card-title">Criccieth, País de Gales</h3>
@@ -152,7 +114,6 @@
             </div>
           </div>
 
-          <!------------------------card 2--------------------->
           <div class="places__card">
             <div class="places__card-header">
               <h3 class="places__card-title">Berea, EUA</h3>
@@ -201,7 +162,6 @@
             </div>
           </div>
 
-          <!------------------------card 3--------------------->
           <div class="places__card">
             <div class="places__card-header">
               <h3 class="places__card-title">Muramvya, Burundi</h3>
@@ -256,7 +216,6 @@
             </div>
           </div>
 
-          <!------------------------card 4--------------------->
           <div class="places__card">
             <div class="places__card-header">
               <h3 class="places__card-title">Juina, Brasil</h3>
@@ -297,9 +256,12 @@
                   áreas de preservação e forte potencial para o ecoturismo,
                   proporcionando cenários marcados por pores do sol
                   impressionantes, vegetação exuberante e contato direto com a
-                  natureza. Seu charme está na combinação entre desenvolvimento
-                  urbano e a grandiosidade natural que a cerca, tornando-a um
-                  lugar singular no estado de Mato Grosso.
+                  natureza.
+                </p>
+                <p>
+                  Seu charme está na combinação entre desenvolvimento urbano e a
+                  grandiosidade natural que a cerca, tornando-a um lugar
+                  singular no estado de Mato Grosso.
                 </p>
               </div>
               <a
@@ -314,8 +276,17 @@
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">© 2026. Michael Ribeiro</p>
+        <p class="footer__copyright">© 2026 Michael Ribeiro</p>
       </footer>
     </div>
+
+    <div class="popup popup-is-hidden">
+      <div class="popup_content">
+        <img class="popup_image" src="" alt="" />
+        <p class="popup_caption"></p>
+      </div>
+    </div>
+
+    <script type="module" src="./src/pages/index.js"></script>
   </body>
 </html>

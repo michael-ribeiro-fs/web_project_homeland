@@ -1,0 +1,32 @@
+.popup {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.466);
+  z-index: 9999;
+}
+
+.popup_content {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.popup_image {
+  width: 100%;
+  aspect-ratio: 1.33 / 1;
+  object-fit: cover;
+}
+
+.popup_caption {
+  font-size: 12px;
+  line-height: 1.15;
+  color: white;
+  margin-top: 5px;
+}
+
+.popup-is-hidden {
+  display: none;
+}

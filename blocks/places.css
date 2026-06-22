@@ -104,8 +104,6 @@
   );
 }
 
-/* Responsive adjustments for mobile screens */
-
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .places {
     width: 100%;
@@ -157,8 +155,6 @@
     line-height: 1;
   }
 }
-
-/* Responsive adjustments for tablet screens */
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   .places {
